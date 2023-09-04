@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * void reset_to_98 - A function that resets to 98
+ * reset_to_98 - A function that resets to 98
  * @n: input
  * Return: nothing
  */
