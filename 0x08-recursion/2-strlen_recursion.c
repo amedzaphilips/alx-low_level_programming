@@ -1,16 +1,19 @@
 #include "main.h"
-
 /**
- * factorial - A function returns the factorial of a number
- * @n: the number to return the factorial from
+ * _strlen_recursion - Returns the length of a string.
+ * @s: string to be measured.
  *
- * Return: the factorial of n
+ * Return: length of the string.
  */
-int factorial(int n)
+int _strlen_recursion(char *s)
 {
-	if (n < 0)
-		return (-1);
-	if (n == 0)
-		return (1);
-	return (n * factorial(n - 1));
+	int longo = 0;
+
+	if (*s)
+	{
+		longo++;
+		longo += _strlen_recursion(s + 1);
+	}
+
+	return (longo);
 }
