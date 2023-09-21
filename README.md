@@ -1,2 +1,1 @@
-# alx-low_level_programming
-C basics
+0x0E-structures_typedef
