@@ -35,7 +35,7 @@ if (*head == NULL)
 while (temp->next)
 	temp = temp->next;
 
-	temp->next = new;
+temp->next = new;
 
 return (new);
 }
