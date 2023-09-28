@@ -7,7 +7,7 @@
  *
  * Return: value of the bit
  */
-int gt_bt(unsigned long int n, unsigned int index)
+int get_bti(unsigned long int n, unsigned int index)
 {
 	int bt_v;
 
